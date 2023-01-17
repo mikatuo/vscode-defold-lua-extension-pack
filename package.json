@@ -1,0 +1,27 @@
+{
+  "name": "defold-lua-extension-pack",
+  "displayName": "Defold Lua Extension Pack",
+  "description": "This extension pack packages some of the most popular Defold extensions.",
+  "publisher": "mikatuo",
+  "version": "0.9.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikatuo/vscode-defold-lua-extension-pack"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "defold"
+  ],
+  "extensionPack": [ 
+    "sumneko.lua",
+    "thejustinwalsh.textproto-grammer",
+    "slevesque.shader",
+    "dtoplak.vscode-glsllint",
+    "koihik.vscode-lua-format"
+  ]
+}
