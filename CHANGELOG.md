@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.9.2] - 2023-01-17
+
+### Changed
+
+- Change icon from white and black to the classic Defold logo
+
 ## [0.9.1] - 2023-01-17
 
 ### Added
