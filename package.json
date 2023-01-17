@@ -3,21 +3,92 @@
   "displayName": "Defold Lua Extension Pack",
   "description": "This extension pack packages some of the most popular Defold extensions.",
   "publisher": "mikatuo",
-  "version": "0.9.0",
+  "license": "MIT",
+  "version": "0.9.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/mikatuo/vscode-defold-lua-extension-pack"
   },
+  "homepage": "https://github.com/mikatuo/vscode-defold-lua-extension-pack",
+  "bugs": {
+    "url": "https://github.com/mikatuo/vscode-defold-lua-extension-pack/issues"
+  },
+  "icon": "images/logo.png",
   "engines": {
-    "vscode": "^1.74.0"
+    "vscode": "^1.67.0"
   },
   "categories": [
     "Extension Packs"
   ],
   "keywords": [
-    "defold"
+    "Defold",
+    "Lua"
   ],
-  "extensionPack": [ 
+  "contributes": {
+    "languages": [
+      {
+        "extensions": [
+          ".script",
+          ".gui_script",
+          ".render_script",
+          ".editor_script",
+          ".lua_"
+        ],
+        "id": "lua"
+      },
+      {
+        "extensions": [
+          ".fp",
+          ".vp"
+        ],
+        "id": "glsl"
+      },
+      {
+        "extensions": [
+          "*.go",
+          "*.animationset",
+          "*.atlas",
+          "*.camera",
+          "*.collection",
+          "*.collectionfactory",
+          "*.collectionproxy",
+          "*.collisionobject",
+          "*.display_profiles",
+          "*.factory",
+          "*.gamepads",
+          "*.gui",
+          "*.input_binding",
+          "*.label",
+          "*.material",
+          "*.mesh",
+          "*.model",
+          "*.particlefx",
+          "*.render",
+          "*.sound",
+          "*.spinemodel",
+          "*.spinescene",
+          "*.sprite",
+          "*.texture_profiles",
+          "*.tilemap",
+          "*.tilesource"
+        ],
+        "id": "textproto"
+      },
+      {
+        "extensions": [
+          ".buffer"
+        ],
+        "id": "json"
+      },
+      {
+        "extensions": [
+          ".project"
+        ],
+        "id": "ini"
+      }
+    ]
+  },
+  "extensionPack": [
     "sumneko.lua",
     "thejustinwalsh.textproto-grammer",
     "slevesque.shader",

@@ -6,6 +6,16 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.9.1] - 2023-01-17
+
+### Added
+
+- An icon for the extension pack
+- Recommended VS Code settings.json
+- VS Code file association config for Defold
+
+###
+
 ## [0.9.0] - 2023-01-17
 
 ### Added
