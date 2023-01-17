@@ -4,16 +4,20 @@
   "description": "This extension pack packages some of the most popular Defold extensions.",
   "publisher": "mikatuo",
   "license": "MIT",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/mikatuo/vscode-defold-lua-extension-pack"
   },
-  "homepage": "https://github.com/mikatuo/vscode-defold-lua-extension-pack",
+  "homepage": "https://marketplace.visualstudio.com/items?itemName=mikatuo.defold-lua-extension-pack",
   "bugs": {
     "url": "https://github.com/mikatuo/vscode-defold-lua-extension-pack/issues"
   },
   "icon": "images/logo.png",
+  "galleryBanner": {
+    "color": "#1e2226",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.67.0"
   },
@@ -24,70 +28,6 @@
     "Defold",
     "Lua"
   ],
-  "contributes": {
-    "languages": [
-      {
-        "extensions": [
-          ".script",
-          ".gui_script",
-          ".render_script",
-          ".editor_script",
-          ".lua_"
-        ],
-        "id": "lua"
-      },
-      {
-        "extensions": [
-          ".fp",
-          ".vp"
-        ],
-        "id": "glsl"
-      },
-      {
-        "extensions": [
-          "*.go",
-          "*.animationset",
-          "*.atlas",
-          "*.camera",
-          "*.collection",
-          "*.collectionfactory",
-          "*.collectionproxy",
-          "*.collisionobject",
-          "*.display_profiles",
-          "*.factory",
-          "*.gamepads",
-          "*.gui",
-          "*.input_binding",
-          "*.label",
-          "*.material",
-          "*.mesh",
-          "*.model",
-          "*.particlefx",
-          "*.render",
-          "*.sound",
-          "*.spinemodel",
-          "*.spinescene",
-          "*.sprite",
-          "*.texture_profiles",
-          "*.tilemap",
-          "*.tilesource"
-        ],
-        "id": "textproto"
-      },
-      {
-        "extensions": [
-          ".buffer"
-        ],
-        "id": "json"
-      },
-      {
-        "extensions": [
-          ".project"
-        ],
-        "id": "ini"
-      }
-    ]
-  },
   "extensionPack": [
     "sumneko.lua",
     "thejustinwalsh.textproto-grammer",
