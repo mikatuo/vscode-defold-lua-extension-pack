@@ -1,6 +1,6 @@
-# Defold Lua Extension Pack
+# Defold Extension Pack
 
-This extension pack packages some of the most popular [Defold](http://defold.com/) extensions.
+This extension pack packages some of the most popular VS Code extensions for [Defold](http://defold.com/).
 
 ## Recommended Settings
 

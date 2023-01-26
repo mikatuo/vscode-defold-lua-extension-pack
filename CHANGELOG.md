@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [0.9.4] - 2023-01-26
+
+### Changed
+
+- Use bigger 160px icon
+- Small changes in readme
+
 ## [0.9.3] - 2023-01-17
 
 ### Added
