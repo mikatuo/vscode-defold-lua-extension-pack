@@ -70,6 +70,7 @@ Feel free to copy and paste them into your `.vscode/settings.json` file.
 
 ## What's Included
 
+- [mikatuo.vscode-defold-ide](https://marketplace.visualstudio.com/items?itemName=mikatuo.vscode-defold-ide) - Tools for Defold to make your life easier and coding in Lua nicer.
 - [sumneko.lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) - A powerful Lua language server with IntelliSense.
 - [thejustinwalsh.textproto-grammer](https://marketplace.visualstudio.com/items?itemName=thejustinwalsh.textproto-grammer) - Textual Protobuf syntax highlighting.
 - [slevesque.shader](https://marketplace.visualstudio.com/items?itemName=slevesque.shader) - Shader languages support.
