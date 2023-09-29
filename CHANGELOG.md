@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [0.9.7] - 2023-09-28
+- `ADD` Add sponsor url to https://github.com/sponsors/defold
+
 ## [0.9.6] - 2023-02-26
 - `CHG` Logo
 
